@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task5;
 
 public class BasicSwitch {
     public static void main(String[] args) {
-        int a = 20;
+        int a = 2;
         switch (a) {
             default:
                 System.out.println("default");
@@ -14,7 +14,7 @@ public class BasicSwitch {
                 System.out.println("ten");
                 break;
             case 20:
-                System.out.println("twenty");
+                System.out.println("20");
                 break;
         }
     }
