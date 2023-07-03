@@ -25,10 +25,10 @@ class LeapYearPrinterTest extends BaseIOTest {
     
     
     @Test
-    void isLeapYearPrintsNotLeapWhen1901() {
+    void isLeapYearPrintsNotLeapWhen1900() {
         LeapYearPrinter leapPrinter = new LeapYearPrinter();
 
-        leapPrinter.isLeapYear(1901);
+        leapPrinter.isLeapYear(1900);
 
         assertOutEquals("not leap\n");
     }
